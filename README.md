@@ -2,4 +2,4 @@
 
 🌟 Welcome to my personal portfolio website's GitHub repository!
 
-🔗 Check out the live site here: [Click Me!](https://mananagg.me)
+🔗 Check out the live site here: [Click Me!](https://mananagg.tech)
