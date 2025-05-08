@@ -1,0 +1,257 @@
+Host nipgnas1
+    HostName nipgnas1.inf.elte.hu
+    ProxyCommand ssh nipgnas -W %h:%p
+    User manan
+    Port 60663
+
+Host nipgnas1.inf.elte.hu
+    HostName nipgnas1.inf.elte.hu
+    User manan
+    
+Host caesar.elte.hu
+    HostName caesar.elte.hu
+    User mananagg
+
+  Host ullman.inf.elte.hu
+    HostName ullman.inf.elte.hu
+    Port 2000
+    User mananagg
+  Host aramis.inf.elte.hu
+    HostName aramis.inf.elte.hu
+    Port 2001
+    User mananagg
+    
+Host dsd.inf.elte.hu
+    HostName dsd.inf.elte.hu
+    Port 10111
+    User msc_manan
+
+Host nipg1
+    HostName nipg1.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg3
+    HostName nipg3.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg4
+    HostName nipg4.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg5
+    HostName nipg5.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg6
+    HostName nipg6.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg7
+    HostName nipg7.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg8
+    HostName nipg8.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg10
+    HostName nipg10.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg11
+    HostName nipg11.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg12
+    HostName nipg12.inf.elte.hu
+	#User szilvi
+	User manan
+    IdentityFile ~/.ssh/id_rsa
+    Port 10115
+    #ForwardX11 yes
+    #ForwardX11Trusted yes
+    ##XAuthLocation C:/Progra~1/VcXsrv/xauth.exe
+    #Compression yes
+
+Host nipg13
+    HostName nipg13.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg14
+    HostName nipg14.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg15
+    HostName nipg15.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg16
+    HostName nipg16.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg17
+    HostName nipg17.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg18
+    HostName nipg18.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 60663
+
+Host nipg18_i
+    HostName nipg18.inf.elte.hu
+    User manan
+    Port 60663
+
+
+Host nipg30
+    HostName nipg30.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+
+#Host nipg31
+# 	HostName nipg31.inf.elte.hu
+#    User szilvi
+# 	ProxyCommand ssh nipg12  -W %h:%p
+#    #IdentityFile ~/.ssh/id_rsa
+#    Port 10113
+#    #ProxyJump nipg12
+#    #ForwardX11 yes
+#    #ForwardX11Trusted yes
+#    #XAuthLocation C:/Progra~1/VcXsrv/xauth.exe
+#    #Compression yes
+
+# NIPG31 BARANYI
+Host nipg31
+ 	HostName nipg31.inf.elte.hu
+	User manan
+	ProxyCommand ssh nipg12 -W %h:%p
+    Port 10113
+
+#Host nipg31
+#  	HostName nipg31.inf.elte.hu
+#   User manan #manan2
+#	ProxyCommand ssh nipg12  -W %h:%p
+#   Port 10113
+
+Host nipg32
+    HostName nipg32.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+    
+Host nipg32_jump
+    HostName nipg32.inf.elte.hu
+#    ProxyCommand ssh nipg12  -W %h:%p
+    ProxyJump nipg1
+    User manan
+    Port 10113
+    
+Host nipg32_i
+    HostName nipg32.inf.elte.hu
+    User manan
+    Port 10113
+
+Host nipg33
+    HostName nipg33.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+    
+    
+Host nipg33_jump
+    HostName nipg33.inf.elte.hu
+#   ProxyCommand ssh nipg12  -W %h:%p
+    ProxyJump manan@nipg1
+    User manan
+    Port 10113
+    
+Host nipg33_i
+    HostName nipg33.inf.elte.hu
+    User manan
+    Port 10113
+	
+#Host nipg33
+# 	HostName nipg33.inf.elte.hu
+#    User szilvi
+# 	ProxyCommand ssh nipg12  -W %h:%p
+#    #IdentityFile ~/.ssh/id_rsa
+#    Port 10113
+    #ProxyJump nipg12
+    #ForwardX11 yes
+    #ForwardX11Trusted yes
+    #XAuthLocation C:/Progra~1/VcXsrv/xauth.exe
+    #Compression yes
+
+Host nipg34
+    HostName nipg34.inf.elte.hu
+    #ProxyCommand ssh nipg12  -W %h:%p
+    ProxyJump manan@nipg1
+    User manan
+    Port 10113
+    
+    
+Host nipg34_i
+    HostName nipg34.inf.elte.hu
+    User manan
+    Port 10113
+
+Host nipg35
+    HostName nipg35.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+ 
+Host nipg36
+    HostName nipg36.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+	
+Host nipg37
+    HostName nipg37.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+	
+Host nipg38
+    HostName nipg38.inf.elte.hu
+    ProxyCommand ssh nipg12 -W %h:%p
+    User manan
+    Port 10113
+    
+Host facegym
+    HostName facegym.inf.elte.hu
+    ProxyJump manan@nipg1
+    User zsolti
+    Port 22
