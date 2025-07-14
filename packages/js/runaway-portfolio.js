@@ -33,6 +33,17 @@ function moveButton(e) {
   }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.querySelector('.runaway-portfolio-btn');
+  if (btn) {
+    btn.addEventListener('mouseover', function() {
+      btn.style.position = 'absolute';
+      btn.style.left = Math.random() * window.innerWidth + 'px';
+      btn.style.top = Math.random() * window.innerHeight + 'px';
+    });
+  }
+});
+
 btn.addEventListener('mouseenter', () => {
   btnRect = btn.getBoundingClientRect();
   document.addEventListener('mousemove', moveButton);
